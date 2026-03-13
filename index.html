@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -------------------------------------------------------->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#hero">SystementorZoo</a></li>
+            <li><a href="#todo">Att Göra</a></li>
+            <li><a href="#newsletter">Nyhetsbrev</a></li>
+            <li><a href="#animals">Våra Djur</a></li>
+        </ul>
+    </nav>
+    <!-- HERO Section -------------------------------------------------->
+    <section class="hero" id="hero">
+        <div class="herotext">
+            <h1>Zoo</h1>
+            <h3>Lorem, ipsum dolor.</h3>
+        </div>
+    </section>
+
+    <!-- TODO Section -------------------------------------------------->
+    <section class="todo" id="todo">
+        <div class="tododesc">
+            <h1>Att Göra</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum temporibus ab reiciendis cupiditate
+                eveniet nihil doloremque officia velit ipsa perferendis!</p>
+            <img src="images/zooKarta.png">
+        </div>
+        <article class="todo1">
+            <div class="todo1desc">
+                <h2>Lekpark till barnen</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </article>
+        <article class="todo2">
+            <div class="todo2desc">
+                <h2>Resturanger</h2>
+                <ul>
+                    <li><a>Resturang Stationen</a></li>
+                    <li><a>Lemur Caféet</a></li>
+                    <li><a>Lilla Zoo Fiket</a></li>
+                </ul>
+            </div>
+        </article>
+        <article>
+            <div>
+                <h2>Alla våra fantastiska</h2>
+                <p>Kolla på alla våra fina <a>djur</a></p>
+            </div>
+        </article>
+    </section>
+    <div class="animls" id="animals">
+        <table>
+            <tr>
+                <th>Art</th>
+                <th>Namn</th>
+                <th>Vikt</th>
+                <th>Wiki</th>
+            </tr>
+            <tr>
+                <td><img src="images/cat.png"></td>
+                <td>Findus</td>
+                <td>5kg</td>
+                <td><a href="https://en.wikipedia.org/wiki/Cat">Wiki</a></td>
+            </tr>
+            <tr>
+                <td><img src="images/dogLogo.png"></td>
+                <td>Pelle</td>
+                <td>10kg</td>
+                <td><a href="https://en.wikipedia.org/wiki/Dog">Wiki</a></td>
+            </tr>
+            <tr>
+                <td><img src="images/parrot.png"></td>
+                <td>Coco</td>
+                <td>1,5kg</td>
+                <td><a href="https://en.wikipedia.org/wiki/Parrot">Wiki</a></td>
+            </tr>
+        </table>
+    </div>
+    <!-- https://formshow.systementor.se/ -->
+    <form action="https://formshow.systementor.se/" method="post" class="mx-auto" id="newsletter">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="John">
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Doe">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="john.doe@gmail.com">
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" placeholder="30">
+        <input type="submit" value="Prenumerera">
+    </form>
+</body>
+
+</html>
