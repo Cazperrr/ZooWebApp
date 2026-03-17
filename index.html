@@ -19,45 +19,37 @@
         </ul>
     </nav>
     <!-- HERO Section -------------------------------------------------->
-    <section class="hero" id="hero">
-        <div class="herotext">
+    <header class="hero">
+        <img src="images/zoo.jpg">
+        <div class="heroText">
             <h1>Zoo</h1>
             <h3>Lorem, ipsum dolor.</h3>
         </div>
-    </section>
+    </header>
 
     <!-- TODO Section -------------------------------------------------->
-    <section class="todo" id="todo">
-        <div class="tododesc">
-            <h1>Att Göra</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum temporibus ab reiciendis cupiditate
-                eveniet nihil doloremque officia velit ipsa perferendis!</p>
-            <img src="images/zooKarta.png">
+    <section class="todo">
+        <div class="container">
+            <div class="item">
+                <img src="images/wifi.svg">
+                <h2>Gratis Wifi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quasi.</p>
+            </div>
+            <div class="item">
+                <img src="images/eat.svg">
+                <h2>Flera resturanger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quasi.</p>
+            </div>
+            <div class="item">
+                <img src="images/tent.svg">
+                <h2>Övernatta på campingen</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quasi.</p>
+            </div>
         </div>
-        <article class="todo1">
-            <div class="todo1desc">
-                <h2>Lekpark till barnen</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-        </article>
-        <article class="todo2">
-            <div class="todo2desc">
-                <h2>Resturanger</h2>
-                <ul>
-                    <li><a>Resturang Stationen</a></li>
-                    <li><a>Lemur Caféet</a></li>
-                    <li><a>Lilla Zoo Fiket</a></li>
-                </ul>
-            </div>
-        </article>
-        <article>
-            <div>
-                <h2>Alla våra fantastiska</h2>
-                <p>Kolla på alla våra fina <a>djur</a></p>
-            </div>
-        </article>
     </section>
-    <div class="animls" id="animals">
+
+    <!-- Animal Section -------------------------------------------------->
+    <section class="animals">
         <table>
             <tr>
                 <th>Art</th>
@@ -84,19 +76,35 @@
                 <td><a href="https://en.wikipedia.org/wiki/Parrot">Wiki</a></td>
             </tr>
         </table>
-    </div>
-    <!-- https://formshow.systementor.se/ -->
-    <form action="https://formshow.systementor.se/" method="post" class="mx-auto" id="newsletter">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" placeholder="John">
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" placeholder="Doe">
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="john.doe@gmail.com">
-        <label for="age">Age:</label><br>
-        <input type="number" id="age" name="age" placeholder="30">
-        <input type="submit" value="Prenumerera">
-    </form>
+        <div class="text">
+            <h2>Lista över alla våra djur</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid animi, autem illo molestiae voluptatum
+                ab dolore ullam dolor saepe dignissimos eius amet rem enim porro minus sit atque quod optio?</p>
+        </div>
+    </section>
+
+    <!-- Find us Section -------------------------------------------------->
+    <section class="findseciton">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4265.939557306375!2d11.943340265580666!3d57.6829922519585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff33fc853ca63%3A0x22cfbc8c5e644e5f!2sSlottsskogen!5e0!3m2!1ssv!2sse!4v1773757058776!5m2!1ssv!2sse"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Form Section -------------------------------------------------->
+    <section class="formsection">
+        <form action="https://formshow.systementor.se/" method="post" id="newsletter">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="John">
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Doe">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="john.doe@gmail.com">
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" placeholder="30">
+            <input type="submit" value="Prenumerera">
+        </form>
+    </section>
 </body>
 
 </html>
